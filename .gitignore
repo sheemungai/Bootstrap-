@@ -1,1 +1,17 @@
-node_modules
+# Dependencies
+node_modules/
+package-lock.json
+pnpm-lock.yaml
+
+# Build and cache
+dist/
+build/
+.sass-cache/
+
+# Environment and system files
+.env
+.DS_Store
+Thumbs.db
+
+# Editor folders
+.vscode/
