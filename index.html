@@ -34,6 +34,10 @@
         height: 700px;
         width: 50px;
       }
+      .card-img-top {
+        height: 180px;
+        object-fit: cover;
+      }
 
       #contact-us {
         background-image: url("assets/images/pexels-riciardus-69903.jpg");
@@ -46,7 +50,10 @@
 
   <body class="min-vh-100">
     <!--  navigation bar -->
-    <nav class="navbar navbar-expand-lg bg-primary position-relative z-3">
+    <nav
+      class="navbar navbar-expand-lg bg-primary position-relative z-3"
+      style="z-index: 4"
+    >
       <div class="container py-4">
         <a class="navbar-brand" href="#home">
           <img
@@ -141,7 +148,11 @@
             aut in vitae!
           </p>
 
-          <button type="button" class="btn btn-lg btn-warning mt-4">
+          <button
+            type="button"
+            class="btn btn-lg btn-warning mt-4"
+            href="#sponsorship"
+          >
             support us
           </button>
         </div>
@@ -172,7 +183,7 @@
               expressions.</span
             >
           </h3>
-          <p class="text-secondary mt-6 fs-4 ">
+          <p class="text-secondary mt-6 fs-4">
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
             quidem.ad optio sapiente itaque? Vel delectus quisquam, impedit
             distinctio ea harum alias totam mollitia. Expedita quaerat nostrum
@@ -202,6 +213,9 @@
             />
             <span class="text-warning fs-6">Prince Doe</span>
           </div>
+          <button type="submit" class="btn btn-primary" href="sponsorship">
+            Sponsorship
+          </button>
         </div>
       </div>
     </section>
@@ -243,6 +257,7 @@
                 <p>
                   Lorem ipsum dolor sit amet consectetur adipisicing elit. Quis,
                   beatae?
+                </p>
               </div>
             </div>
             <div class="carousel-item active">
@@ -306,6 +321,110 @@
             <span class="carousel-control-next-icon" aria-hidden="true"></span>
             <span class="visually-hidden">Next</span>
           </button>
+        </div>
+      </div>
+    </section>
+
+    <!-- sponsorship section -->
+
+    <section class="min-vh-100">
+      <div>
+        <div class="container my-5 text-center">
+          <h1 class="text-warning fw-bold">Sponsorship</h1>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam,
+            beatae?
+          </p>
+        </div>
+        <div class="d-flex justify-content-center">
+          <h5 class="fw-bold text-secondary">Sponsorship tiers</h5>
+        </div>
+
+        <div class="d-flex justify-content-center my-3 gap-4">
+          <div class="card ml-3" style="width: 25rem">
+            <img
+              src="assets\images\pexels-n-voitkevich-6532373.jpg"
+              class="card-img-top"
+              alt="golden trophy image"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-warning">Gold Tier</h5>
+              <p class="card-text">
+                Premium exposure, featured placement, exclusive benefits
+              </p>
+              <div class="">
+                <li>VIP opening night access</li>
+                <li>Recognition in exhibition catalogs</li>
+                <li>Exclusive event invitations</li>
+                <li>Private curator-led tours</li>
+              </div>
+            </div>
+          </div>
+          <div class="card ml-3" style="width: 25rem">
+            <img
+              src="assets\images\pexels-n-voitkevich-6532365.jpg"
+              class="card-img-top h-45"
+              alt="silver trophy image"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-warning">Silver Tier</h5>
+              <p class="card-text">
+                High visibility, prominent placement, special recognition
+              </p>
+              <li>Logo placement on website and materials</li>
+              <li>Recognition in exhibition catalogs</li>
+              <li>Exclusive event invitations</li>
+            </div>
+          </div>
+          <div class="card ml-3" style="width: 25rem">
+            <img
+              src="assets\images\pexels-rdne-7005687.jpg"
+              class="card-img-top card"
+              alt="bronze trophy image"
+            />
+            <div class="card-body">
+              <h5 class="card-title fw-bold text-warning">Bronze Tier</h5>
+              <p class="card-text">
+                Valued support, standard placement, acknowledgment
+              </p>
+              <li>Logo placement on website and materials</li>
+              <li>Recognition in exhibition catalogs</li>
+              <li>Exclusive event invitations</li>
+            </div>
+          </div>
+        </div>
+
+        <div class="container my-5">
+          <div>
+            <h2 class="fw-bold text-warning justify-content-center">Our Valued Sponsors</h2>
+          </div>
+
+          <div class="d-flex justify-content-center gap-3 my-5 ">
+            <div class="card" style="width: 22rem">
+              <div class="card-body">
+                <h5 class="card-title display-6 text-secondary fw-bold">Art Gallery</h5>
+                <p class="card-text">
+                 proud sponsor
+                </p>
+              </div>
+            </div>
+            <div class="card " style="width: 22rem">
+              <div class="card-body ">
+                <h5 class="card-title display-6 text-secondary fw-bold">Creative World</h5>
+                <p class="card-text">
+                 proud sponsor
+                </p>
+              </div>
+            </div>
+            <div class="card " style="width: 27rem">
+              <div class="card-body">
+                <h5 class="card-title display-6 text-secondary fw-bold">Magical life</h5>
+                <p class="card-text">
+                 proud sponsor
+                </p>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
     </section>
